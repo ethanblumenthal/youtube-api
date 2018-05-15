@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -11,17 +11,18 @@
   </head>
   
   <body>
-    <h1>Search YouTube</h1>
-    <form>
-      <label>
-        <input type="text">
-        <button type="submit">Search</button>
-      </label>
-    </form>
-    
-    <h2>Results</h2>
-    <div class="main"></div>
-    
+    <main role="main" aria-live="assertive">
+      <h1>Search YouTube</h1>
+      <form>
+        <label>
+          <input type="text">
+          <button type="submit">Search</button>
+        </label>
+      </form>
+      
+      <h2>Results</h2>
+      <div class="main"></div>
+    </main>
     <script src="app.js"></script>
     <script src="https://apis.google.com/js/client.js?onload=onClientLoad" type="text/javascript"></script>
   </body>
